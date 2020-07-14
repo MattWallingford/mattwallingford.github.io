@@ -4,7 +4,7 @@ collection: teaching
 type: 
 permalink: /teaching/2014-spring-teaching-1
 venue: "Cornell"
-date: Spring 2016
+date: 2015-01-01
 location: 
 ---
 
