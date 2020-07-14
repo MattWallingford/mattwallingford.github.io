@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Matthew Wallingford"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Matthew Wallingford"
 description              : &description "personal description"
