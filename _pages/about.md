@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Computer Science and Engineering"
 excerpt: 
 author_profile: true
 redirect_from: 
