@@ -11,7 +11,7 @@ redirect_from:
 I am currently a second year CS PhD student at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math (minor in physics and CS) and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/">Bharath Hariharan</a>. </p>
 
 <p style="font-size:16px">
-Broadly my research is in computer vision and machine learning. Currently I am interested in transfer learning and learning with limited supervision. 
+Broadly my research is in computer vision and machine learning. Currently I am interested in transfer learning and learning from limited supervision. 
 </p>
 
 ## News
