@@ -16,7 +16,7 @@ Broadly my research is in computer vision and machine learning. Currently I am i
 
 ## News
 <p style="font-size:16px">
-<b>Mar 22, 2020 </b> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Submitted to ICCV 2021 - <a href="https://arxiv.org/pdf/2007.02519.pdf"> Are we Overfitting to Experimental Setups in</a> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; <a href="https://arxiv.org/pdf/2007.02519.pdf">Recognition?</a> <br>
+<b>Mar 22, 2021 </b> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Submitted to ICCV 2021 - <a href="https://arxiv.org/pdf/2007.02519.pdf"> Are we Overfitting to Experimental Setups in</a> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; <a href="https://arxiv.org/pdf/2007.02519.pdf">Recognition?</a> <br>
 <b>Feb 23, 2020 </b> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Accepted to CVPR 2020 - <a href="https://arxiv.org/abs/2004.06799"> RoboTHOR: An Open Simulation-to-Real</a> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; <a href="https://arxiv.org/abs/2004.06799">Embodied AI Platform</a> <br>
 </p>
 
