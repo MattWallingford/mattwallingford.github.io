@@ -9,6 +9,6 @@ paperurl: 'https://arxiv.org/pdf/2007.02519.pdf'
 citation: 
 ---
 <p float="left">
-<img src="/images/teaser_fig_fluid_all_caps.pdf" width = "600"/>
+<img src="/images/teaser_fig_fluid_all_caps.jpg" width = "600"/>
 </p>
 <a href="https://arxiv.org/abs/2007.02519">arxiv</a><a href="https://github.com/RAIVNLab/InTheWild">code</a>
