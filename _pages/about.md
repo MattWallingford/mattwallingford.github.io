@@ -22,7 +22,7 @@ Broadly my research is in computer vision and machine learning. Currently I am i
 
 <p style="font-size:24px"> <span style="color:maroon;font-size:22px">[Preprint] </span><a href="https://arxiv.org/pdf/2007.02519.pdf"> FLUID: A Unified Evaluation Framework for Flexible Sequential Data </a><br><span style="font-size:18px"> <b>Matthew Wallingford</b>, Aditya Kusupati, Keivan Alizadeh-Vahid, Aaron Walsman, Aniruddha Kembhavi, Ali Farhadi</span> </p>
 
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[CVPR '20] </span><a href="https://arxiv.org/pdf/2203.16708.pdf">RoboTHOR: An Open Simulation-to-Real</a><br><span style="font-size:18px">Matt Deitke, Winson Han, Alvaro Herrasti, Aniruddha Kembhavi, Eric Kolve, Roozbeh Mottaghi, Jordi Salvador, Dustin Schwenk, Eli VanderBilt, <b>Matthew Wallingford</b>, Luca Weihs, Mark Yatskar, Ali Farhadi<br>Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b> 2020</span> </p>
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[CVPR '20] </span><a href="https://arxiv.org/pdf/2203.16708.pdf">RoboTHOR: An Open Simulation-to-Real Embodied AI Platform</a><br><span style="font-size:18px">Matt Deitke, Winson Han, Alvaro Herrasti, Aniruddha Kembhavi, Eric Kolve, Roozbeh Mottaghi, Jordi Salvador, Dustin Schwenk, Eli VanderBilt, <b>Matthew Wallingford</b>, Luca Weihs, Mark Yatskar, Ali Farhadi<br>Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b> 2020</span> </p>
 
 
 
