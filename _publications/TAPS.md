@@ -11,4 +11,4 @@ citation:
 <p float="left">
 <img src="/images/TAPS.png" width = "700"/>
 </p>
-<a style="font-size:20px" href="https://arxiv.org/pdf/2203.16708.pdf">arxiv</a>
+<a style="font-size:20px" href="https://arxiv.org/pdf/2203.16708.pdf">arxiv</a> / <a style="font-size:20px" href="https://github.com/MattWallingford/TAPS">code</a> / 
