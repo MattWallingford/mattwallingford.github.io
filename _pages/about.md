@@ -16,7 +16,7 @@ Broadly my research is in computer vision and machine learning. Currently I am i
 
 <h1> Publications </h1>
 
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[NeurIPS '22] </span><a href="https://arxiv.org/pdf/2205.13147.pdf">Matryoshka Representation Learning</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Aditya Kusupati, Gantavya Bhatt, Aniket Rege, <b>Matthew Wallingford</b>, Aditya Sinha, Vivek Ramanujan, William Howard-Snyder, Kaifeng Chen, Sham Kakade, Prateek Jain, Ali Farhadi <b>(NeurIPS</b> 2022</span> </p>
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[NeurIPS '22] </span><a href="https://arxiv.org/pdf/2205.13147.pdf">Matryoshka Representation Learning</a><br><span style="font-size:18px">Aditya Kusupati, Gantavya Bhatt, Aniket Rege, <b>Matthew Wallingford</b>, Aditya Sinha, Vivek Ramanujan, William Howard-Snyder, Kaifeng Chen, Sham Kakade, Prateek Jain, Ali Farhadi <b>(NeurIPS</b> 2022</span> </p>
 
 <p style="font-size:24px"> <span style="color:maroon;font-size:22px">[CVPR '22] </span><a href="https://arxiv.org/pdf/2203.16708.pdf">Task Adaptive Parameter Sharing for Multi-Task Learning</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Hao Li, Alessandro Achille, Avinash Ravichandran, Charless Fowlkes, Rahul Bhotika, Stefano Soatto<br>Conference on Computer Vision and Pattern Recognition <b>(CVPR)</b> 2022</span> </p>
 
