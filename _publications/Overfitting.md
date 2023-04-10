@@ -11,4 +11,4 @@ citation:
 <p float="left">
 <img src="/images/teaser_fig_fluid_all_caps.jpg" width = "700"/>
 </p>
-<a style="font-size:20px" href="https://arxiv.org/abs/2007.02519">arxiv</a> / <a style="font-size:20px" href="https://github.com/RAIVNLab/FLUID">code</a> / 
+<a style="font-size:20px" href="https://arxiv.org/abs/2007.02519">Arxiv</a> / <a style="font-size:20px" href="https://github.com/RAIVNLab/FLUID">Code / </a> <a style="font-size:20px" href="https://github.com/RAIVNLab/FLUID">Site  </a>

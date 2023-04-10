@@ -11,4 +11,4 @@ citation:
 <p float="left">
 <img src="/images/teaser_nested.png" width = "700"/>
 </p>
-<a style="font-size:20px" href="https://arxiv.org/abs/2205.13147">arxiv</a> / <a style="font-size:20px" href="https://github.com/RAIVNLab/MRL">code</a>
+<a style="font-size:20px" href="https://arxiv.org/abs/2205.13147">Arxiv</a> / <a style="font-size:20px" href="https://github.com/RAIVNLab/MRL">Code</a>

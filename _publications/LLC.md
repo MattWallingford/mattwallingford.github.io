@@ -11,4 +11,4 @@ citation:
 <p float="left">
 <img src="/images/clustered-dendrogram.jpg" width = "700"/>
 </p>
-<a style="font-size:20px" href="https://arxiv.org/pdf/2106.01487.pdf">arxiv</a> / <a style="font-size:20px" href="https://github.com/RAIVNLab/LLC">code</a>
+<a style="font-size:20px" href="https://arxiv.org/pdf/2106.01487.pdf">Arxiv</a> / <a style="font-size:20px" href="https://github.com/RAIVNLab/LLC">Code</a>

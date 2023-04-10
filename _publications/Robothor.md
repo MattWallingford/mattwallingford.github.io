@@ -11,4 +11,4 @@ citation:
 <p float="left">
 <img src="/images/robothor.png" width = "700"/>
 </p>
-<a style="font-size:20px" href="https://arxiv.org/abs/2004.06799">arxiv</a> / <a style="font-size:20px" href="https://github.com/allenai/robothor-challenge">code</a> / <a style="font-size:20px" href="https://ai2thor.allenai.org/robothor/challenge/">site</a>
+<a style="font-size:20px" href="https://arxiv.org/abs/2004.06799">Arxiv</a> / <a style="font-size:20px" href="https://github.com/allenai/robothor-challenge">Code</a> / <a style="font-size:20px" href="https://ai2thor.allenai.org/robothor/challenge/">Site</a>
