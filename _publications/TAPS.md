@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/TAPS
 excerpt: 
 date: 2022-3-15
-venue: CVPR 2022
+venue: CVPR 
 paperurl: 'https://arxiv.org/pdf/2203.16708.pdf'
 citation: 
 ---

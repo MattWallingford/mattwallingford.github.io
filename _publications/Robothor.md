@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Robothor
 excerpt: 
 date: 2019-11-6
-venue: CVPR 2020
+venue: CVPR 
 paperurl: 'https://arxiv.org/pdf/2007.02519.pdf'
 citation: 
 ---
