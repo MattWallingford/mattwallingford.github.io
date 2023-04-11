@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/LLC
 excerpt: 
 date: 2021-9-15
-venue: NeurIPS 2021
+venue: NeurIPS 
 paperurl: 'https://arxiv.org/pdf/2106.01487.pdf'
 citation: 
 ---
