@@ -22,12 +22,13 @@ Broadly my research is in computer vision and machine learning. Currently I am i
 Eli VanderBilt, Aniruddha Kembhavi, Carl Vondrick, Georgia Gkioxari,
 Kiana Ehsani, Ludwig Schmidt, Ali Farhadi </span> </p>
 <hr>
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[ICLR '23] </span><a href="https://arxiv.org/abs/2301.04101">Neural Radiance Field Codebooks</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Aditya Kusupati, Alex Fang, Vivek Ramanujan, Aniruddha Kembhavi, Roozbeh Mottaghi, Ali Farhadi [<br>International Conference on Learning Representations (ICLR), 2023 </span> </p>
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[ICLR '23] </span><a href="https://arxiv.org/abs/2301.04101">Neural Radiance Field Codebooks</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Aditya Kusupati, Alex Fang, Vivek Ramanujan, Aniruddha Kembhavi, Roozbeh Mottaghi, Ali Farhadi <br><em>International Conference on Learning Representations <b>(ICLR)</b></em>, 2023 </span> </p>
 
 
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[TMLR '23] </span><a href="https://arxiv.org/pdf/2007.02519.pdf"> FLUID: A Unified Evaluation Framework for Flexible Sequential Data </a><br><span style="font-size:18px"> <b>Matthew Wallingford</b>, Aditya Kusupati, Keivan Alizadeh-Vahid, Aaron Walsman, Aniruddha Kembhavi, Ali Farhadi</span> </p>
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[TMLR '23] </span><a href="https://arxiv.org/pdf/2007.02519.pdf"> FLUID: A Unified Evaluation Framework for Flexible Sequential Data </a><br><span style="font-size:18px"> <b>Matthew Wallingford</b>, Aditya Kusupati, Keivan Alizadeh-Vahid, Aaron Walsman, Aniruddha Kembhavi, Ali Farhadi <br>Transactions on Machine Learning Research (TMLR), 2023</span> </p>
 
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[NeurIPS '22] </span><a href="https://arxiv.org/pdf/2205.13147.pdf">Matryoshka Representation Learning</a><br><span style="font-size:18px">Aditya Kusupati, Gantavya Bhatt, Aniket Rege, <b>Matthew Wallingford</b>, Aditya Sinha, Vivek Ramanujan, William Howard-Snyder, Kaifeng Chen, Sham Kakade, Prateek Jain, Ali Farhadi </span> </p>
+
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[NeurIPS '22] </span><a href="https://arxiv.org/pdf/2205.13147.pdf">Matryoshka Representation Learning</a><br><span style="font-size:18px">Aditya Kusupati, Gantavya Bhatt, Aniket Rege, <b>Matthew Wallingford</b>, Aditya Sinha, Vivek Ramanujan, William Howard-Snyder, Kaifeng Chen, Sham Kakade, Prateek Jain, Ali Farhadi <br>Neural Information Processing Systems (NeurIPS), 2022</span> </p>
 
 <p style="font-size:24px"> <span style="color:maroon;font-size:22px">[CVPR '22] </span><a href="https://arxiv.org/pdf/2203.16708.pdf">Task Adaptive Parameter Sharing for Multi-Task Learning</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Hao Li, Alessandro Achille, Avinash Ravichandran, Charless Fowlkes, Rahul Bhotika, Stefano Soatto<br>Conference on Computer Vision and Pattern Recognition </span> </p>
 
