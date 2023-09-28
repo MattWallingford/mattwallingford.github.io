@@ -14,15 +14,16 @@ I am currently a fourth year CS PhD student at the University of Washington advi
 Broadly my research is in computer vision and machine learning. Currently I am interested in transfer learning, 3D computer vision, and learning from alternate forms of supervision. 
 </p>
 
-<h1> Preprints </h1>
 
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[Preprint] </span><a href="https://arxiv.org/abs/2306.10191">Neural Priming for Sample-Efficient Adaptation</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Vivek Ramanujan, Alex Fang, Aditya Kusupati, Roozbeh Mottaghi, Aniruddha Kembhavi, Ludwig Schmidt, Ali Farhadi </span> </p>
-
-<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[Preprint] </span><a href="https://objaverse.allenai.org/objaverse-xl-paper.pdf">Objaverse-XL: A Universe of 10M+ 3D Objects</a><br><span style="font-size:18px">Matt Deitke, Ruoshi Liu, <b>Matthew Wallingford</b>, Huong Ngo, Oscar Michel,Aditya Kusupati, Alan Fan, Christian Laforte, Vikram Voleti, Samir Yitzhak Gadre,
-Eli VanderBilt, Aniruddha Kembhavi, Carl Vondrick, Georgia Gkioxari,
-Kiana Ehsani, Ludwig Schmidt, Ali Farhadi </span> </p>
 <h1> Publications </h1>
 <hr>
+
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[NeuRIPS '23] </span><a href="https://arxiv.org/abs/2306.10191">Neural Priming for Sample-Efficient Adaptation</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Vivek Ramanujan, Alex Fang, Aditya Kusupati, Roozbeh Mottaghi, Aniruddha Kembhavi, Ludwig Schmidt, Ali Farhadi </span> </p>
+
+<p style="font-size:24px"> <span style="color:maroon;font-size:22px">[NeuRIPS Datasets '23] </span><a href="https://objaverse.allenai.org/objaverse-xl-paper.pdf">Objaverse-XL: A Universe of 10M+ 3D Objects</a><br><span style="font-size:18px">Matt Deitke, Ruoshi Liu, <b>Matthew Wallingford</b>, Huong Ngo, Oscar Michel,Aditya Kusupati, Alan Fan, Christian Laforte, Vikram Voleti, Samir Yitzhak Gadre,
+Eli VanderBilt, Aniruddha Kembhavi, Carl Vondrick, Georgia Gkioxari,
+Kiana Ehsani, Ludwig Schmidt, Ali Farhadi </span> </p>
+
 <p style="font-size:24px"> <span style="color:maroon;font-size:22px">[ICLR '23] </span><a href="https://arxiv.org/abs/2301.04101">Neural Radiance Field Codebooks</a><br><span style="font-size:18px"><b>Matthew Wallingford</b>, Aditya Kusupati, Alex Fang, Vivek Ramanujan, Aniruddha Kembhavi, Roozbeh Mottaghi, Ali Farhadi <br><em>International Conference on Learning Representations <b>(ICLR)</b>, 2023 </em></span> </p>
 
 
