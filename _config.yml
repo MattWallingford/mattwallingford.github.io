@@ -83,11 +83,11 @@ analytics:
 author:
   name             : ""
   avatar           : "profile.jpg"
-  bio              : "PhD in Computer Science at University of Washington"
+  bio              : "PhD in CS at University of Washington"
   location         : "Seattle, WA"
   employer         :
   pubmed           : 
-  googlescholar    :
+  googlescholar    : https://scholar.google.com/citations?user=vSPbuZQAAAAJ&hl=en
   email            : mcw244 at cs dot washington dot edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
