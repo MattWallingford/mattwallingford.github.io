@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <p style="font-size:18px">
-I am currently a fifth year CS PhD student at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math (minor in physics and CS) and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/">Bharath Hariharan</a>. </p>
+I am CS PhD student at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math (minor in physics and CS) and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/">Bharath Hariharan</a>. </p>
 
 <p style="font-size:18px">
 Broadly my research is in computer vision and machine learning. Currently I am interested in 3D representations in vision, sample-efficiency, and learning from video. 
