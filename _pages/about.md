@@ -31,36 +31,36 @@ Broadly my research is in computer vision and machine learning. My current resea
 
 <p style="font-size:20px;  line-height:1.2;"><b>The Unmet Promise of Synthetic Training Images: Using Retrieved Real Images Performs Better</b><br>
 <span style="font-size:15px;">Scott Geng, Cheng-Yu Hsieh, Vivek Ramanujan, <u>Matthew Wallingford</u>, Chun-Liang Li, Ranjay Krishna, Pang Wei Koh<br>
-<em><b>NeurIPS</b> <b>2024</b></em><br>[<a href="https://arxiv.org/abs/2406.05184" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>NeurIPS</b> <b>2024</b></em><br>[<a href="https://arxiv.org/abs/2406.05184" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/scottgeng00/unmet-promise" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>Neural Priming for Sample-Efficient Adaptation</b><br>
 <span style="font-size:15px;"><u>Matthew Wallingford</u>, Vivek Ramanujan, Alex Fang, Aditya Kusupati, Roozbeh Mottaghi, Aniruddha Kembhavi, Ludwig Schmidt, Ali Farhadi<br>
-<em><b>NeurIPS</b> <b>2023</b></em><br>[<a href="https://arxiv.org/abs/2306.10191" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>NeurIPS</b> <b>2023</b></em><br>[<a href="https://arxiv.org/abs/2306.10191" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/RAIVNLab/neural-priming" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>Objaverse-XL: A Universe of 10M+ 3D Objects</b><br>
 <span style="font-size:15px;">Matt Deitke, Ruoshi Liu, <u>Matthew Wallingford</u>, Huong Ngo, Oscar Michel, Aditya Kusupati, Alan Fan, Christian Laforte, Vikram Voleti, Samir Yitzhak Gadre, Eli VanderBilt, Aniruddha Kembhavi, Carl Vondrick, Georgia Gkioxari, Kiana Ehsani, Ludwig Schmidt, Ali Farhadi<br>
-<em><b>NeurIPS</b> <b>2023</b>, Benchmarks and Datasets</em><br>[<a href="https://objaverse.allenai.org/objaverse-xl-paper.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>NeurIPS</b> <b>2023</b>, Benchmarks and Datasets</em><br>[<a href="https://objaverse.allenai.org/objaverse-xl-paper.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/allenai/objaverse-xl" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>Neural Radiance Field Codebooks</b><br>
 <span style="font-size:15px;"><u>Matthew Wallingford</u>, Aditya Kusupati, Alex Fang, Vivek Ramanujan, Aniruddha Kembhavi, Roozbeh Mottaghi, Ali Farhadi<br>
-<em><b>ICLR</b> <b>2023</b></em><br>[<a href="https://arxiv.org/abs/2301.04101" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>ICLR</b> <b>2023</b></em><br>[<a href="https://arxiv.org/abs/2301.04101" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/MattWallingford/NeuralRadianceFieldCodebooks" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>FLUID: A Unified Evaluation Framework for Flexible Sequential Data</b><br>
 <span style="font-size:15px;"><u>Matthew Wallingford</u>, Aditya Kusupati, Keivan Alizadeh-Vahid, Aaron Walsman, Aniruddha Kembhavi, Ali Farhadi<br>
-<em><b>TMLR</b> <b>2023</b></em><br>[<a href="https://arxiv.org/pdf/2007.02519.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>TMLR</b> <b>2023</b></em><br>[<a href="https://arxiv.org/pdf/2007.02519.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/RAIVNLab/FLUID" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>Matryoshka Representation Learning</b><br>
 <span style="font-size:15px;">Aditya Kusupati, Gantavya Bhatt, Aniket Rege, <u>Matthew Wallingford</u>, Aditya Sinha, Vivek Ramanujan, William Howard-Snyder, Kaifeng Chen, Sham Kakade, Prateek Jain, Ali Farhadi<br>
-<em><b>NeurIPS</b> <b>2022</b></em><br>[<a href="https://arxiv.org/pdf/2205.13147.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>NeurIPS</b> <b>2022</b></em><br>[<a href="https://arxiv.org/pdf/2205.13147.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/RAIVNLab/MRL" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>Task Adaptive Parameter Sharing for Multi-Task Learning</b><br>
 <span style="font-size:15px;"><u>Matthew Wallingford</u>, Hao Li, Alessandro Achille, Avinash Ravichandran, Charless Fowlkes, Rahul Bhotika, Stefano Soatto<br>
-<em><b>CVPR</b> <b>2022</b></em><br>[<a href="https://arxiv.org/pdf/2203.16708.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>CVPR</b> <b>2022</b></em><br>[<a href="https://arxiv.org/pdf/2203.16708.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/MattWallingford/TAPS" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes</b><br>
 <span style="font-size:15px;">Aditya Kusupati, <u>Matthew Wallingford</u>, Vivek Ramanujan, Raghav Somani, Jae Sung Park, Krishna Pillutla, Prateek Jain, Sham Kakade, Ali Farhadi<br>
-<em><b>NeurIPS</b> <b>2021</b></em><br>[<a href="https://arxiv.org/pdf/2106.01487.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>NeurIPS</b> <b>2021</b></em><br>[<a href="https://arxiv.org/pdf/2106.01487.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/RAIVNLab/LLC" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
 
 <p style="font-size:20px;  line-height:1.2;"><b>RoboTHOR: An Open Simulation-to-Real Embodied AI Platform</b><br>
 <span style="font-size:15px;">Matt Deitke, Winson Han, Alvaro Herrasti, Aniruddha Kembhavi, Eric Kolve, Roozbeh Mottaghi, Jordi Salvador, Dustin Schwenk, Eli VanderBilt, <u>Matthew Wallingford</u>, Luca Weihs, Mark Yatskar, Ali Farhadi<br>
-<em><b>CVPR</b> <b>2020</b></em><br>[<a href="https://arxiv.org/pdf/2203.16708.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="#" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
+<em><b>CVPR</b> <b>2020</b></em><br>[<a href="https://arxiv.org/pdf/2203.16708.pdf" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://github.com/allenai/robothor-challenge" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]</span></p>
