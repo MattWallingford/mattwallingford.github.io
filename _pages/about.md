@@ -11,15 +11,17 @@ redirect_from:
 I am CS PhD student at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/" style="color: hsl(230, 90%, 40%);">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math (minor in physics and cs) and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/" style="color: hsl(230, 90%, 40%);">Bharath Hariharan</a>. 
 <br>
 <br>
-Broadly my research is in computer vision and machine learning. My current research is focused on learning 3D representations from large-scale data such as video. Particularly I am interested in leveraging 3D foundation models for embodied systems.
-</p>
+<b>Research Interests</b>
+My research goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. Towards this goal, my current research is focused on real-world, 3D scene generation and controllable video generation. Particularly I am interested in how to filter and stucture video data to train these models at scale. I also work on problems related to representation learning and efficiency. 
+
+<b>I am on the job market this year. Please feel free to reach out to discuss potential opportunities.<b> 
 
 
 <h2> Publications </h2>
 <hr style="height: 2px; background-color: grey; border: none;">
 <p style="font-size:19px; line-height:1.2;"><b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
 <span style="font-size:15px;"><u>Matthew Wallingford</u>, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan, Matt Deitke, Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma, Ali Farhadi<br>
-<em> <b>NeurIPS</b> <b>2024</b> </em><br>pdf coming soon
+<em> <b>NeurIPS</b> <b>2024</b> </em><br>[<a href="https://arxiv.org/abs/2412.07770" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>]
 
 <p style="font-size:20px;  line-height:1.2;"><b>Multilingual Diversity Improves Vision-Language Representations</b><br>
 <span style="font-size:15px;">Thao Nguyen, <u>Matthew Wallingford</u>, Sebastin Santy, Wei-Chiu Ma, Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna<br>
