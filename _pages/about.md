@@ -13,7 +13,9 @@ I am final year PhD student in computer science at the University of Washington 
 <br>
 <b>Research Interests</b>
 <br>
-My research goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. Towards this goal, my current research is focused on real-world, 3D scene generation and controllable video generation. Particularly I am interested in how to filter and stucture video data to train these models at scale. I also work on problems related to representation learning and efficiency. 
+<br>
+My research goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. Towards this goal, my current research is focused on generating real-world, 3D scenes and controllable video generation. Particularly I am interested in how to filter and stucture video data to train these models at scale. I also work on problems related to representation learning and efficiency. 
+<br>
 <br>
 <b>I am on the job market this year. Please feel free to reach out to discuss potential opportunities.<b> 
 
