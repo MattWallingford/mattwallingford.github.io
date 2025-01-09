@@ -8,23 +8,27 @@ redirect_from:
   - /about.html
 ---
 <p style="font-size:18px">
-I am final year PhD student in computer science at the University of Washington advicsed by <a href="https://homes.cs.washington.edu/~ali/" style="color: hsl(230, 90%, 40%);">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math (minor in physics and cs) and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/" style="color: hsl(230, 90%, 40%);">Bharath Hariharan</a>. 
+I am final year PhD student in computer science at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/" style="color: hsl(230, 90%, 40%);">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math and physics and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/" style="color: hsl(230, 90%, 40%);">Bharath Hariharan</a>. 
 <br>
 <br>
 <b>Research Interests</b>
 <br>
 <br>
-My research goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. Towards this goal, my current research is focused on generating real-world, 3D scenes and controllable video generation. Particularly I am interested in how to filter and stucture video data to train these models at scale. I also work on problems related to representation learning and efficiency. 
+<hr>
+<br>
+My goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. My current research is focused on generating real-world, 3D environments and controllable video generation. Particularly I am interested in how to structure data to train such models at scale. I've also worked on problems related to representation learning and model efficiency.
 <br>
 <br>
-<b>I am on the job market this year. Please feel free to reach out to discuss potential opportunities.<b> 
+<em>I am on the job market this year. Please feel free to reach out to discuss potential opportunities.</em>
+
+
 
 
 <h2> Publications </h2>
 <hr style="height: 2px; background-color: grey; border: none;">
 <p style="font-size:19px; line-height:1.2;"><b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
 <span style="font-size:15px;"><u>Matthew Wallingford</u>, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan, Matt Deitke, Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma, Ali Farhadi<br>
-<em> <b>NeurIPS</b> <b>2024</b> </em><br>[<a href="https://arxiv.org/abs/2412.07770" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">webpage</a>]
+<em> <b>NeurIPS</b> <b>2024</b> </em><br>[<a href="https://arxiv.org/abs/2412.07770" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">webpage</a>][<a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px;" style="color: hsl(230, 90%, 40%);">code</a>]
 
 <p style="font-size:20px;  line-height:1.2;"><b>Multilingual Diversity Improves Vision-Language Representations</b><br>
 <span style="font-size:15px;">Thao Nguyen, <u>Matthew Wallingford</u>, Sebastin Santy, Wei-Chiu Ma, Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna<br>
