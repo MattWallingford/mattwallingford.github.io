@@ -73,7 +73,8 @@ My goal is to build learning systems capable of understanding the rich underlyin
 
   <b>Multilingual Diversity Improves Vision-Language Representations</b><br>
   <span style="font-size:15px;">
-    Thao Nguyen, <u>Matthew Wallingford</u>, ...
+    Thao Nguyen, <u>Matthew Wallingford</u>, Sebastin Santy, Wei-Chiu Ma,
+    Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna
     <br>
     <em><b>NeurIPS 2024</b> [<span style="color:maroon;">Spotlight</span>]</em>
     <br>
