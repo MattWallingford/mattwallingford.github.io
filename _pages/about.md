@@ -31,8 +31,8 @@ My goal is to build learning systems capable of understanding the rich underlyin
 <!-- First Paper -->
 <p style="font-size:19px; line-height:1.2; clear: both;">
   <!-- A constantly looping GIF (assuming it's exported/created with infinite looping) -->
-  <a href="https://example.com/my_video.mp4" target="_blank">
-    <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/nyc4.gif"
+  <a href="" target="_blank">
+    <img src="https://github.com/MattWallingford/ODIN/blob/main/living_room_zoom.gif"
          style="float:left; width:140px; margin-right:1em;"
          alt="Constantly Looping GIF" />
   </a>
