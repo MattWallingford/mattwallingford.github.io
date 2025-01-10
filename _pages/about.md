@@ -32,9 +32,9 @@ My goal is to build learning systems capable of understanding the rich underlyin
 <p style="font-size:19px; line-height:1.2; clear: both;">
   <!-- A constantly looping GIF (assuming it's exported/created with infinite looping) -->
   <a href="https://mattwallingford.github.io/ODIN/" target="_blank">
-    <img src="https://github.com/MattWallingford/ODIN/blob/main/living_room_zoom.gif"
+    <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/living_room_zoom.gif"
          style="float:left; width:140px; margin-right:1em;"
-         alt="Constantly Looping GIF" />
+         alt="GIF" />
   </a>
   
   <b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
