@@ -7,13 +7,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  /* Force all links on this page to light blue */
+  a {
+    color: lightblue !important;
+  }
+</style>
+
 <p style="font-size:18px">
 I am final year PhD student in computer science at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/" style="color: hsl(230, 90%, 40%);">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math and physics and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/" style="color: hsl(230, 90%, 40%);">Bharath Hariharan</a>. 
 <br>
 <br>
 <b>Research Interests</b>
 <hr>
-My goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. My current research is focused on generating real-world, 3D environments and controllable video generation. Particularly I am interested in how to structure data to train such models at scale. I've also worked on problems related to representation learning and model efficiency.
+My goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. My current research is focused on generating real-world, 3D environments and controllable video generation. Particularly I am interested in how to collect and structure data to train such models at scale. I've also worked on problems related to representation learning and model efficiency.
 <hr>
 <em>I am on the job market this year. Feel free to reach out to discuss potential opportunities.</em>
 
