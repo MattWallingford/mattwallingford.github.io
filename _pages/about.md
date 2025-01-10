@@ -30,11 +30,11 @@ My goal is to build learning systems capable of understanding the rich underlyin
 <h2> Publications </h2>
 <!-- First Paper -->
 <p style="font-size:19px; line-height:1.2; clear: both;">
-  <!-- Video thumbnail linking to an MP4 or a larger GIF -->
+  <!-- A constantly looping GIF (assuming it's exported/created with infinite looping) -->
   <a href="https://example.com/my_video.mp4" target="_blank">
-    <img src="https://example.com/my_video_thumbnail.png"
+    <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/nyc4.gif"
          style="float:left; width:140px; margin-right:1em;"
-         alt="Video Thumbnail" />
+         alt="Constantly Looping GIF" />
   </a>
   
   <b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
