@@ -39,7 +39,8 @@ My goal is to build learning systems capable of understanding the rich underlyin
   
   <b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
   <span style="font-size:15px;">
-    <u>Matthew Wallingford</u>, Anand Bhattad, ...
+    <u>Matthew Wallingford</u>, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan, Matt Deitke, 
+    Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma, Ali Farhadi
     <br>
     <em><b>NeurIPS 2024</b></em>
     <br>
@@ -59,13 +60,13 @@ My goal is to build learning systems capable of understanding the rich underlyin
       </a>
     ]
   </span>
-</p>
+
 
 <!-- Second Paper -->
 <p style="font-size:20px; line-height:1.2; clear: both;">
   <!-- Another video thumbnail on the left -->
-  <a href="https://raw.githubusercontent.com/MattWallingford/ODIN/main/nyc4.gif" target="_blank">
-    <img src="https://example.com/another_video_thumbnail.png"
+  <a href="https://arxiv.org/abs/2406.05184" target="_blank">
+    <img src="../images/fig1.png"
          style="float:left; width:140px; margin-right:1em;"
          alt="Video Thumbnail" />
   </a>
