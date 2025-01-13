@@ -71,7 +71,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
   <!-- Another video thumbnail -->
   <a href="https://arxiv.org/abs/2406.05184" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:140px; margin-right:1em; margin-top:15px;"
+         style="float:left; width:140px; margin-right:1em; margin-top:30px;"
          alt="Video Thumbnail" />
   </a>
 
