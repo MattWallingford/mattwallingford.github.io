@@ -56,7 +56,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
   <!-- Another video thumbnail -->
   <a href="https://arxiv.org/abs/2405.16915" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:140px; margin-right:1em; margin-top:45px;" 
+         style="float:left; width:140px; margin-right:1em; margin-top:60px;" 
          alt="Video Thumbnail" />
   </a>
 
@@ -66,7 +66,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
       Thao Nguyen, <u>Matthew Wallingford</u>, Sebastin Santy, Wei-Chiu Ma,
       Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna
       <br>
-      <em><b>NeurIPS 2024</b>[<span style="color:maroon;">Spotlight</span>]</em>
+      <em><b>NeurIPS 2024</b> [<span style="color:maroon;">Spotlight</span>]</em>
       <br>
       [<a href="https://arxiv.org/abs/2405.16915" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>]
     </span>
