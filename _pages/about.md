@@ -29,14 +29,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
 
 <h2> Publications </h2>
 <!-- First Paper -->
-<h2> Publications </h2>
 
-<!-- First Paper -->
-<h2> Publications </h2>
-
-<h2> Publications </h2>
-
-<!-- First Paper -->
 <p style="font-size:19px; line-height:1.2; clear: both;">
   <!-- A constantly looping GIF -->
   <a href="https://mattwallingford.github.io/ODIN/" target="_blank">
@@ -53,13 +46,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
       <br>
       <em><b>NeurIPS 2024</b></em>
       <br>
-      [
-        <a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
-      ][
-        <a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">webpage</a>
-      ][
-        <a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">code</a>
-      ]
+      [<a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>][<a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">webpage</a>][<a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">code</a>]
     </span>
   </div>
 </p>
@@ -81,9 +68,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
       <br>
       <em><b>NeurIPS 2024</b>[<span style="color:maroon;">Spotlight</span>]</em>
       <br>
-      [
-        <a href="https://arxiv.org/abs/2405.16915" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
-      ]
+      [<a href="https://arxiv.org/abs/2405.16915" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>]
     </span>
   </div>
 </p>
