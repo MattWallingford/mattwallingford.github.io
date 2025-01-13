@@ -10,7 +10,7 @@ redirect_from:
 <style>
   /* Force all links on this page to light blue */
   a {
-    color: #145680 !important;
+    color: #1A73E8 !important;
   }
 </style>
 
