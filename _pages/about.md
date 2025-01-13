@@ -29,61 +29,60 @@ My goal is to build learning systems capable of understanding the rich underlyin
 
 <h2> Publications </h2>
 <!-- First Paper -->
+<h2> Publications </h2>
+
+<!-- First Paper -->
 <p style="font-size:19px; line-height:1.2; clear: both;">
-  <!-- A constantly looping GIF (assuming it's exported/created with infinite looping) -->
+  <!-- A constantly looping GIF -->
   <a href="https://mattwallingford.github.io/ODIN/" target="_blank">
     <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/living_room_zoom.gif"
          style="float:left; width:140px; margin-right:1em;"
          alt="GIF" />
   </a>
   
-  <b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
-  <span style="font-size:15px;">
-    <u>Matthew Wallingford</u>, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan, Matt Deitke, 
-    Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma, Ali Farhadi
-    <br>
-    <em><b>NeurIPS 2024</b></em>
-    <br>
-    [
-      <a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">
-        pdf
-      </a>
-    ]
-    [
-      <a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">
-        webpage
-      </a>
-    ]
-    [
-      <a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">
-        code
-      </a>
-    ]
-  </span>
-
+  <div style="margin-left:160px;"> <!-- Added container to align all elements -->
+    <b>From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos</b><br>
+    <span style="font-size:15px;">
+      <u>Matthew Wallingford</u>, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan, Matt Deitke, 
+      Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma, Ali Farhadi
+      <br>
+      <em><b>NeurIPS 2024</b></em>
+      <br>
+      [
+        <a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
+      ]
+      [
+        <a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">webpage</a>
+      ]
+      [
+        <a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">code</a>
+      ]
+    </span>
+  </div>
+</p>
 
 <!-- Second Paper -->
 <p style="font-size:20px; line-height:1.2; clear: both;">
-  <!-- Another video thumbnail on the left -->
+  <!-- Another video thumbnail -->
   <a href="https://arxiv.org/abs/2406.05184" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:180px; margin-right:1em;"
+         style="float:left; width:140px; margin-right:1em;"
          alt="Video Thumbnail" />
   </a>
 
-  <b>Multilingual Diversity Improves Vision-Language Representations</b><br>
-  <span style="font-size:15px;">
-    Thao Nguyen, <u>Matthew Wallingford</u>, Sebastin Santy, Wei-Chiu Ma,
-    Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna
-    <br>
-    <em><b>NeurIPS 2024</b> [<span style="color:maroon;">Spotlight</span>]</em>
-    <br>
-    [
-      <a href="https://arxiv.org/abs/2406.05184" style="font-size:15px; color: hsl(230, 90%, 40%);">
-        pdf
-      </a>
-    ]
-  </span>
+  <div style="margin-left:160px;"> <!-- Added container to align all elements -->
+    <b>Multilingual Diversity Improves Vision-Language Representations</b><br>
+    <span style="font-size:15px;">
+      Thao Nguyen, <u>Matthew Wallingford</u>, Sebastin Santy, Wei-Chiu Ma,
+      Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna
+      <br>
+      <em><b>NeurIPS 2024</b>[<span style="color:maroon;">Spotlight</span>]</em>
+      <br>
+      [
+        <a href="https://arxiv.org/abs/2406.05184" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
+      ]
+    </span>
+  </div>
 </p>
 
 
