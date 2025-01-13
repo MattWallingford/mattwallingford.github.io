@@ -34,12 +34,14 @@ My goal is to build learning systems capable of understanding the rich underlyin
 <!-- First Paper -->
 <h2> Publications </h2>
 
+<h2> Publications </h2>
+
 <!-- First Paper -->
 <p style="font-size:19px; line-height:1.2; clear: both;">
   <!-- A constantly looping GIF -->
   <a href="https://mattwallingford.github.io/ODIN/" target="_blank">
     <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/living_room_zoom.gif"
-         style="float:left; width:140px; margin-right:1em; margin-top:15px;" <!-- Adjusted vertical alignment -->
+         style="float:left; width:140px; margin-right:1em; margin-top:15px;" 
          alt="GIF" />
   </a>
   
@@ -69,7 +71,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
   <!-- Another video thumbnail -->
   <a href="https://arxiv.org/abs/2406.05184" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:140px; margin-right:1em; margin-top:15px;" <!-- Adjusted vertical alignment -->
+         style="float:left; width:140px; margin-right:1em; margin-top:15px;"
          alt="Video Thumbnail" />
   </a>
 
