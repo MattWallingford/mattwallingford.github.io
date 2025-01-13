@@ -32,11 +32,14 @@ My goal is to build learning systems capable of understanding the rich underlyin
 <h2> Publications </h2>
 
 <!-- First Paper -->
+<h2> Publications </h2>
+
+<!-- First Paper -->
 <p style="font-size:19px; line-height:1.2; clear: both;">
   <!-- A constantly looping GIF -->
   <a href="https://mattwallingford.github.io/ODIN/" target="_blank">
     <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/living_room_zoom.gif"
-         style="float:left; width:140px; margin-right:1em;"
+         style="float:left; width:140px; margin-right:1em; margin-top:15px;" <!-- Adjusted vertical alignment -->
          alt="GIF" />
   </a>
   
@@ -66,7 +69,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
   <!-- Another video thumbnail -->
   <a href="https://arxiv.org/abs/2406.05184" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:140px; margin-right:1em;"
+         style="float:left; width:140px; margin-right:1em; margin-top:15px;" <!-- Adjusted vertical alignment -->
          alt="Video Thumbnail" />
   </a>
 
@@ -84,6 +87,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
     </span>
   </div>
 </p>
+
 
 
 <p style="font-size:20px;  line-height:1.2;"><b>Superposed Decoding: Multiple Generations from a Single Autoregressive Inference Pass</b><br>
