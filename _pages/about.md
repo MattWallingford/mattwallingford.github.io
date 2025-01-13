@@ -10,7 +10,7 @@ redirect_from:
 <style>
   /* Force all links on this page to light blue */
   a {
-    color: #4B2E83 !important;
+    color: #90d5ff !important;
   }
 </style>
 
@@ -46,7 +46,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
       <br>
       <em><b>NeurIPS 2024</b></em>
       <br>
-      [<a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>][<a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">webpage</a>][<a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">code</a>]
+      [<a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>] [<a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">webpage</a>] [<a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">code</a>]
     </span>
   </div>
 </p>
