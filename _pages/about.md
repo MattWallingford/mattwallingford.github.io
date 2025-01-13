@@ -34,7 +34,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
   <!-- A constantly looping GIF -->
   <a href="https://mattwallingford.github.io/ODIN/" target="_blank">
     <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/living_room_zoom.gif"
-         style="float:left; width:140px; margin-right:1em; margin-top:15px;" 
+         style="float:left; width:140px; margin-right:1em; margin-top:25px;" 
          alt="GIF" />
   </a>
   
@@ -56,7 +56,7 @@ My goal is to build learning systems capable of understanding the rich underlyin
   <!-- Another video thumbnail -->
   <a href="https://arxiv.org/abs/2405.16915" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:140px; margin-right:1em; margin-top:45px;" 
+         style="float:left; width:140px; margin-right:1em; margin-top:30px;" 
          alt="Video Thumbnail" />
   </a>
 
