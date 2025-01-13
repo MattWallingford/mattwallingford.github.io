@@ -55,11 +55,9 @@ My goal is to build learning systems capable of understanding the rich underlyin
       <br>
       [
         <a href="https://arxiv.org/abs/2412.07770" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
-      ]
-      [
+      ][
         <a href="https://mattwallingford.github.io/ODIN/" style="font-size:15px; color: hsl(230, 90%, 40%);">webpage</a>
-      ]
-      [
+      ][
         <a href="https://github.com/MattWallingford/360-1M" style="font-size:15px; color: hsl(230, 90%, 40%);">code</a>
       ]
     </span>
@@ -69,9 +67,9 @@ My goal is to build learning systems capable of understanding the rich underlyin
 <!-- Second Paper -->
 <p style="font-size:20px; line-height:1.2; clear: both;">
   <!-- Another video thumbnail -->
-  <a href="https://arxiv.org/abs/2406.05184" target="_blank">
+  <a href="https://arxiv.org/abs/2405.16915" target="_blank">
     <img src="../images/fig1.png"
-         style="float:left; width:140px; margin-right:1em; margin-top:30px;"
+         style="float:left; width:140px; margin-right:1em; margin-top:45px;" 
          alt="Video Thumbnail" />
   </a>
 
@@ -84,12 +82,11 @@ My goal is to build learning systems capable of understanding the rich underlyin
       <em><b>NeurIPS 2024</b>[<span style="color:maroon;">Spotlight</span>]</em>
       <br>
       [
-        <a href="https://arxiv.org/abs/2406.05184" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
+        <a href="https://arxiv.org/abs/2405.16915" style="font-size:15px; color: hsl(230, 90%, 40%);">pdf</a>
       ]
     </span>
   </div>
 </p>
-
 
 
 <p style="font-size:20px;  line-height:1.2;"><b>Superposed Decoding: Multiple Generations from a Single Autoregressive Inference Pass</b><br>
