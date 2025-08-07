@@ -22,7 +22,7 @@ I am final year PhD student in computer science at the University of Washington 
 <hr>
 My goal is to build learning systems capable of understanding the rich underlying structure of the 3D world. My current research is focused on generating real-world, 3D environments and controllable video generation. Particularly I am interested in how to collect and structure data to train such models at scale. I've also worked on problems related to representation learning and model efficiency.
 <hr>
-<em>I am on the job market this year. Feel free to reach out to discuss potential opportunities.</em>
+
 
 
 
