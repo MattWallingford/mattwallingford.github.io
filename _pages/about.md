@@ -15,7 +15,7 @@ redirect_from:
 </style>
 
 <p style="font-size:18px">
-I am a research scientist with the <a href="https://prior.allenai.org/" style="color: hsl(230, 90%, 40%);">Allen Institute for AI (Ai2)</a> team at the <a href="https://allenai.org/" style="color: hsl(230, 90%, 40%);">Allen Institute for AI (Ai2)</a>. I received my Ph.D in computer science at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/" style="color: hsl(230, 90%, 40%);">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math and physics and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/" style="color: hsl(230, 90%, 40%);">Bharath Hariharan</a>. 
+I am a research scientist with the <a href="https://prior.allenai.org/" style="color: hsl(230, 90%, 40%);">Prior</a> team at the <a href="https://allenai.org/" style="color: hsl(230, 90%, 40%);">Allen Institute for AI (Ai2)</a>. I received my Ph.D in computer science at the University of Washington advised by <a href="https://homes.cs.washington.edu/~ali/" style="color: hsl(230, 90%, 40%);">Ali Farhadi</a>. Before coming to Seattle, I received my bachelor's in math and physics and an MS in CS from Cornell University where I was advised by <a href="http://home.bharathh.info/" style="color: hsl(230, 90%, 40%);">Bharath Hariharan</a>. 
 <br>
 <br>
 <b>Research Interests</b>
