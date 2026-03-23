@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matt Wallingford</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #fafafa;
+      --text: #1a1a1a;
+      --text-secondary: #666;
+      --accent: #c44020;
+      --accent-hover: #a83218;
+      --border: #e0e0e0;
+      --font: 'JetBrains Mono', monospace;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0a0a0a;
+      --text: #e8e8e8;
+      --text-secondary: #888;
+      --accent: #e84a2a;
+      --accent-hover: #ff5a38;
+      --border: #222;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      font-size: 15px;
+    }
+
+    ::selection { background: var(--accent); color: white; }
+    a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--accent-hover); }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Theme toggle ── */
+    .theme-toggle {
+      position: fixed; top: 1rem; right: 1rem; z-index: 150;
+      width: 40px; height: 40px; border: 1px solid var(--border); border-radius: 50%;
+      background: var(--bg); cursor: pointer; display: flex; align-items: center;
+      justify-content: center; font-size: 1rem; transition: all 0.2s;
+    }
+    .theme-toggle:hover { border-color: var(--accent); }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 2rem 0 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2.5rem;
+      align-items: center;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    .hero-bio p {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 0.6rem;
+    }
+    .hero-links {
+      display: flex;
+      gap: 0.6rem;
+      margin-top: 1.2rem;
+      flex-wrap: wrap;
+    }
+    .hero-links a {
+      font-size: 0.78rem;
+      color: var(--text);
+      background: var(--border);
+      padding: 0.35rem 0.75rem;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+    }
+    .hero-links a:hover { background: var(--accent); color: #fff; transform: translateY(-1px); }
+
+    .hero-photo {
+      width: 220px;
+      height: 220px;
+      border-radius: 4px;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      border: none;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--border), var(--accent), var(--border), transparent);
+      margin: 1.5rem 0;
+    }
+
+    /* ── Sections ── */
+    section { padding: 1rem 0; }
+    section h2 {
+      font-size: 0.78rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    /* ── Legend ── */
+    .legend {
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+      margin-top: -1rem;
+      margin-bottom: 1.5rem;
+    }
+    .legend span { margin-right: 1.2rem; }
+
+    /* ── Publications ── */
+    .pub {
+      padding: 1rem 0 1rem 1.2rem;
+      border-left: 2px solid transparent;
+      position: relative;
+      transition: border-color 0.2s;
+      margin-bottom: 0.5rem;
+    }
+    .pub:hover { border-left-color: var(--accent); }
+    .pub h3 {
+      font-size: 0.92rem;
+      font-weight: 500;
+      line-height: 1.45;
+      margin-bottom: 0.15rem;
+    }
+    .pub .authors {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .pub .authors strong { color: var(--text); font-weight: 500; }
+    .pub .venue {
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+      margin-top: 0.2rem;
+    }
+    .pub .venue .spotlight {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .pub .pub-links {
+      display: flex;
+      gap: 0.8rem;
+      margin-top: 0.4rem;
+    }
+    .pub .pub-links a {
+      font-size: 0.72rem;
+      color: var(--text);
+      background: var(--border);
+      padding: 0.2rem 0.5rem;
+      border-radius: 2px;
+      transition: all 0.2s;
+    }
+    .pub .pub-links a:hover { background: var(--accent); color: #fff; }
+
+    /* ── Attention lens overlay ── */
+    .pub .lens-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.25s;
+      border-radius: 2px;
+    }
+    .pub:hover .lens-overlay { opacity: 1; }
+
+    /* ── Footer ── */
+    footer {
+      padding: 3rem 0 2rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      opacity: 0.5;
+    }
+
+    .scholar-link {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+    .scholar-link:hover { color: var(--accent); }
+
+    /* ── Scroll Reveals ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── Command Palette ── */
+    .palette-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.15);
+      z-index: 200;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 20vh;
+      backdrop-filter: blur(2px);
+    }
+    .palette-overlay.open { display: flex; }
+    .palette {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      width: 100%;
+      max-width: 480px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .palette input {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border: none;
+      outline: none;
+      font-family: var(--font);
+      font-size: 0.9rem;
+      background: transparent;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+    }
+    .palette input::placeholder { color: var(--text-secondary); opacity: 0.5; }
+    .palette-results {
+      max-height: 280px;
+      overflow-y: auto;
+    }
+    .palette-item {
+      padding: 0.6rem 1rem;
+      cursor: pointer;
+      transition: background 0.15s;
+      border-bottom: 1px solid transparent;
+    }
+    .palette-item:hover,
+    .palette-item.selected { background: rgba(0,0,0,0.03); }
+    .palette-item .p-title {
+      font-size: 0.82rem;
+      font-weight: 450;
+    }
+    .palette-item .p-meta {
+      font-size: 0.68rem;
+      color: var(--text-secondary);
+    }
+    .palette-empty {
+      padding: 1.2rem 1rem;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .pub { transition: none; }
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        grid-template-columns: auto 1fr;
+        padding: 3rem 0 2rem;
+        gap: 1.2rem;
+      }
+      .hero-photo { width: 100px; height: 100px; order: -1; grid-row: 1; grid-column: 1; }
+      .hero > div { grid-column: 1 / -1; }
+      .hero h1 { grid-column: 2; grid-row: 1; align-self: center; }
+    }
+  </style>
+</head>
+<body>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">&#9790;</button>
+
+<div class="container">
+
+<section class="hero">
+  <div>
+    <h1>Matt Wallingford</h1>
+    <div class="hero-bio">
+      <p>
+        I am a research scientist on the PRIOR team at the
+        <a href="https://allenai.org/" target="_blank">Allen Institute for AI (AI2)</a>.
+        I received my PhD in Computer Science from the University of Washington,
+        where I was advised by <a href="https://homes.cs.washington.edu/~ali/" target="_blank">Ali Farhadi</a>.
+      </p>
+      <p>
+        Before Seattle, I received my B.S. in Mathematics and Physics and an M.S. in Computer Science
+        from Cornell University, where I was advised by
+        <a href="https://www.cs.cornell.edu/~bharathh/" target="_blank">Bharath Hariharan</a>.
+      </p>
+    </div>
+    <div class="hero-links">
+      <a href="https://scholar.google.com/citations?user=scqwBnAAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/matt-wallingford" target="_blank">LinkedIn</a>
+      <a href="mailto:mcw244@cs.washington.edu">Email</a>
+      <a href="files/CV_3_2026.pdf" target="_blank">CV</a>
+    </div>
+  </div>
+  <img class="hero-photo" src="images/profile.png" alt="Matt Wallingford">
+</section>
+
+<hr class="divider">
+
+<section id="preprints">
+  <h2>Preprints</h2>
+  <div class="legend"><span>* equal contribution</span><span><sup>&dagger;</sup> core contributor</span></div>
+
+  <div class="pub reveal">
+    <h3>MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation</h3>
+    <p class="authors">Abhay Deshpande*, Maya Guru*, Rose Hendrix*, Snehal Jauhri*, Ainaz Eftekhar<sup>&dagger;</sup>, Rohun Tripathi<sup>&dagger;</sup>, Max Argus<sup>&dagger;</sup>, Jordi Salvador<sup>&dagger;</sup>, Haoquan Fang<sup>&dagger;</sup>, <strong>Matthew Wallingford<sup>&dagger;</sup></strong>, Wilbert Pumacay<sup>&dagger;</sup>, Yejin Kim<sup>&dagger;</sup>, Quinn Pfeifer, Ying-Chun Lee, Piper Wolters, Omar Rayyan, Mingtong Zhang, Jiafei Duan, Karen Farley, Winson Han, Eli Vanderbilt, Dieter Fox, Ali Farhadi, Georgia Chalvatzaki, Dhruv Shah<sup>&dagger;</sup>, Ranjay Krishna<sup>&dagger;</sup></p>
+    <p class="venue">arXiv, 2025</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2603.16861" target="_blank">paper</a> <a href="https://allenai.org/blog/molmobot" target="_blank">webpage</a></div>
+  </div>
+</section>
+
+<section id="papers">
+  <h2>Publications</h2>
+
+  <div class="pub reveal">
+    <h3>Beyond the Frame: Generating 360&deg; Panoramic Videos from Perspective Videos</h3>
+    <p class="authors">Rundong Luo, <strong>Matt Wallingford</strong>, Ali Farhadi, Noah Snavely, Wei-Chiu Ma</p>
+    <p class="venue">International Conference on Computer Vision (ICCV), 2025</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2504.07940" target="_blank">paper</a> <a href="https://red-fairy.github.io/argus/" target="_blank">webpage</a> <a href="https://github.com/Red-Fairy/argus-code" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>From an Image to a Scene: Learning to Imagine the World from a Million 360&deg; Videos</h3>
+    <p class="authors"><strong>Matt Wallingford</strong>, Anand Bhattad, Aditya Kusupati, Vivek Ramanujan, Matt Deitke, Aniruddha Kembhavi, Roozbeh Mottaghi, Wei-Chiu Ma, Ali Farhadi</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2024</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2412.07770" target="_blank">paper</a> <a href="https://mattwallingford.github.io/ODIN/" target="_blank">webpage</a> <a href="https://github.com/MattWallingford/360-1M" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Multilingual Diversity Improves Vision-Language Representations</h3>
+    <p class="authors">Thao Nguyen, <strong>Matt Wallingford</strong>, Sebastin Santy, Wei-Chiu Ma, Sewoong Oh, Ludwig Schmidt, Pang Wei Koh, Ranjay Krishna</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2024 <span class="spotlight">(Spotlight)</span></p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2405.16915" target="_blank">paper</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Superposed Decoding: Multiple Generations from a Single Autoregressive Inference Pass</h3>
+    <p class="authors">Ethan Shen, Alan Fan, Sarah M. Pratt, Jae Sung Park, <strong>Matt Wallingford</strong>, Sham M. Kakade, Ari Holtzman, Ranjay Krishna, Ali Farhadi, Aditya Kusupati</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2024</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2405.18400" target="_blank">paper</a> <a href="https://github.com/RAIVNLab/SuperposedDecoding" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>The Unmet Promise of Synthetic Training Images: Using Retrieved Real Images Performs Better</h3>
+    <p class="authors">Scott Geng, Cheng-Yu Hsieh, Vivek Ramanujan, <strong>Matt Wallingford</strong>, Chun-Liang Li, Pang Wei Koh, Ranjay Krishna</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2024</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2406.05184" target="_blank">paper</a> <a href="https://github.com/scottgeng00/unmet-promise" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Neural Radiance Field Codebooks</h3>
+    <p class="authors"><strong>Matt Wallingford</strong>, Aditya Kusupati, Alex Fang, Vivek Ramanujan, Aniruddha Kembhavi, Roozbeh Mottaghi, Ali Farhadi</p>
+    <p class="venue">International Conference on Learning Representations (ICLR), 2023</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2301.04101" target="_blank">paper</a> <a href="https://github.com/MattWallingford/NeuralRadianceFieldCodebooks" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Neural Priming for Sample-Efficient Adaptation</h3>
+    <p class="authors"><strong>Matt Wallingford*</strong>, Vivek Ramanujan*, Alex Fang, Aditya Kusupati, Roozbeh Mottaghi, Aniruddha Kembhavi, Ludwig Schmidt, Ali Farhadi</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2023</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2306.10191" target="_blank">paper</a> <a href="https://github.com/RAIVNLab/neural-priming" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Objaverse-XL: A Universe of 10M+ 3D Objects</h3>
+    <p class="authors">Matt Deitke, Ruoshi Liu, <strong>Matt Wallingford</strong>, Huong Ngo, Oscar Michel, Aditya Kusupati, Alan Fan, Christian Laforte, Vikram Voleti, Samir Yitzhak Gadre, Eli VanderBilt, Aniruddha Kembhavi, Carl Vondrick, Georgia Gkioxari, Kiana Ehsani, Ludwig Schmidt, Ali Farhadi</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2023</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2307.05663" target="_blank">paper</a> <a href="https://github.com/allenai/objaverse-xl" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>FLUID: A Unified Evaluation Framework for Flexible Sequential Data</h3>
+    <p class="authors"><strong>Matt Wallingford</strong>, Aditya Kusupati, Keivan Alizadeh-Vahid, Aaron Walsman, Aniruddha Kembhavi, Ali Farhadi</p>
+    <p class="venue">Transactions on Machine Learning Research (TMLR), 2023</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2007.02519" target="_blank">paper</a> <a href="https://github.com/RAIVNLab/FLUID" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Task Adaptive Parameter Sharing for Multi-Task Learning</h3>
+    <p class="authors"><strong>Matt Wallingford</strong>, Hao Li, Alessandro Achille, Avinash Ravichandran, Charless Fowlkes, Rahul Bhotika, Stefano Soatto</p>
+    <p class="venue">Conference on Computer Vision and Pattern Recognition (CVPR), 2022</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2203.16708" target="_blank">paper</a> <a href="https://github.com/MattWallingford/TAPS" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Matryoshka Representation Learning</h3>
+    <p class="authors">Aditya Kusupati, Gantavya Bhatt, Aniket Rege, <strong>Matt Wallingford</strong>, Aditya Sber, Vivek Ramanujan, Prateek Jain, Sham M. Kakade, Ali Farhadi</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2205.13147" target="_blank">paper</a> <a href="https://github.com/RAIVNLab/MRL" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes</h3>
+    <p class="authors">Aditya Kusupati, <strong>Matt Wallingford</strong>, Vivek Ramanujan, Raghav Somber, Prateek Jain, Sham Kakade, Ali Farhadi</p>
+    <p class="venue">Conference on Neural Information Processing Systems (NeurIPS), 2021</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2106.01487" target="_blank">paper</a> <a href="https://github.com/RAIVNLab/LLC" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>RoboTHOR: An Open Simulation-to-Real Embodied AI Platform</h3>
+    <p class="authors">Matt Deitke, Winson Han, Alvaro Herrasti, Aniruddha Kembhavi, Eric Kolve, Roozbeh Mottaghi, Jordi Salvador, Dustin Schwenk, Eli VanderBilt, <strong>Matt Wallingford</strong>, Luca Weihs, Mark Yatskar, Ali Farhadi</p>
+    <p class="venue">Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2004.06799" target="_blank">paper</a> <a href="https://github.com/allenai/robothor-challenge" target="_blank">code</a></div>
+  </div>
+
+  <a class="scholar-link" href="https://scholar.google.com/citations?user=scqwBnAAAAAJ&hl=en" target="_blank">
+    See all publications on Google Scholar &rarr;
+  </a>
+</section>
+
+</div>
+
+<footer>
+  <div class="container">Matt Wallingford &middot; 2025</div>
+</footer>
+
+<!-- Command Palette -->
+<div class="palette-overlay" id="palette-overlay">
+  <div class="palette">
+    <input type="text" id="palette-input" placeholder="Search papers by title, year, venue...">
+    <div class="palette-results" id="palette-results"></div>
+  </div>
+</div>
+
+<script>
+const papers = [
+  { title: "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation", year: "2025", venue: "arXiv", tags: "embodied 3d generative robot simulation", el: 0 },
+  { title: "Beyond the Frame: Generating 360° Panoramic Videos", year: "2025", venue: "ICCV", tags: "3d generative panoramic video", el: 1 },
+  { title: "From an Image to a Scene: Learning to Imagine the World", year: "2024", venue: "NeurIPS", tags: "3d generative scene 360", el: 2 },
+  { title: "Multilingual Diversity Improves Vision-Language Representations", year: "2024", venue: "NeurIPS", tags: "vision representation multilingual language", el: 3 },
+  { title: "Superposed Decoding: Multiple Generations from a Single Pass", year: "2024", venue: "NeurIPS", tags: "generative decoding language", el: 4 },
+  { title: "The Unmet Promise of Synthetic Training Images", year: "2024", venue: "NeurIPS", tags: "vision generative synthetic", el: 5 },
+  { title: "Neural Radiance Field Codebooks", year: "2023", venue: "ICLR", tags: "3d representation nerf", el: 6 },
+  { title: "Neural Priming for Sample-Efficient Adaptation", year: "2023", venue: "NeurIPS", tags: "representation vision few-shot", el: 7 },
+  { title: "Objaverse-XL: A Universe of 10M+ 3D Objects", year: "2023", venue: "NeurIPS", tags: "3d dataset", el: 8 },
+  { title: "FLUID: A Unified Evaluation Framework", year: "2023", venue: "TMLR", tags: "representation continual benchmark", el: 9 },
+  { title: "Task Adaptive Parameter Sharing for Multi-Task Learning", year: "2022", venue: "CVPR", tags: "representation vision multi-task", el: 10 },
+  { title: "Matryoshka Representation Learning", year: "2022", venue: "NeurIPS", tags: "representation embedding", el: 11 },
+  { title: "LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes", year: "2021", venue: "NeurIPS", tags: "representation binary retrieval", el: 12 },
+  { title: "RoboTHOR: An Open Simulation-to-Real Embodied AI Platform", year: "2020", venue: "CVPR", tags: "embodied 3d simulation robot", el: 13 },
+];
+
+const pubEls = document.querySelectorAll('.pub');
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 40);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Attention lens
+pubEls.forEach(pub => {
+  const overlay = document.createElement('div');
+  overlay.className = 'lens-overlay';
+  pub.appendChild(overlay);
+  pub.addEventListener('mousemove', (e) => {
+    const rect = pub.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const bg = isDark ? 'rgba(10,10,10,0.65)' : 'rgba(250,250,250,0.65)';
+    overlay.style.background = `radial-gradient(180px circle at ${x}px ${y}px, transparent 0%, ${bg} 100%)`;
+  });
+});
+
+// Command Palette
+const paletteOverlay = document.getElementById('palette-overlay');
+const paletteInput = document.getElementById('palette-input');
+const paletteResults = document.getElementById('palette-results');
+let selectedIdx = -1;
+
+function openPalette() {
+  paletteOverlay.classList.add('open');
+  paletteInput.value = '';
+  paletteInput.focus();
+  renderResults('');
+}
+function closePalette() {
+  paletteOverlay.classList.remove('open');
+  selectedIdx = -1;
+}
+function renderResults(query) {
+  const q = query.toLowerCase().trim();
+  const matches = q === '' ? papers : papers.filter(p =>
+    p.title.toLowerCase().includes(q) || p.year.includes(q) ||
+    p.venue.toLowerCase().includes(q) || p.tags.includes(q)
+  );
+  if (matches.length === 0) {
+    paletteResults.innerHTML = '<div class="palette-empty">No results</div>';
+    return;
+  }
+  paletteResults.innerHTML = matches.map((p, i) =>
+    `<div class="palette-item${i === selectedIdx ? ' selected' : ''}" data-idx="${p.el}">
+      <div class="p-title">${p.title}</div>
+      <div class="p-meta">${p.venue} ${p.year}</div>
+    </div>`
+  ).join('');
+  paletteResults.querySelectorAll('.palette-item').forEach(item => {
+    item.addEventListener('click', () => {
+      closePalette();
+      pubEls[parseInt(item.dataset.idx)].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  });
+}
+
+document.addEventListener('keydown', (e) => {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+    e.preventDefault();
+    paletteOverlay.classList.contains('open') ? closePalette() : openPalette();
+  }
+  if (e.key === '/' && !paletteOverlay.classList.contains('open') && document.activeElement.tagName !== 'INPUT') {
+    e.preventDefault();
+    openPalette();
+  }
+  if (e.key === 'Escape') closePalette();
+});
+paletteInput.addEventListener('input', (e) => { selectedIdx = -1; renderResults(e.target.value); });
+paletteOverlay.addEventListener('click', (e) => { if (e.target === paletteOverlay) closePalette(); });
+
+// Theme toggle
+const toggle = document.getElementById('themeToggle');
+const stored = localStorage.getItem('theme');
+if (stored === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+toggle.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '\u2600' : '\u263E';
+toggle.addEventListener('click', () => {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+  localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  toggle.textContent = isDark ? '\u263E' : '\u2600';
+});
+</script>
+
+</body>
+</html>
