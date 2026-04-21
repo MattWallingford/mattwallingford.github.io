@@ -323,6 +323,13 @@
     <p class="venue">arXiv, 2025</p>
     <div class="pub-links"><a href="https://arxiv.org/abs/2603.16861" target="_blank">paper</a> <a href="https://allenai.org/blog/molmobot" target="_blank">webpage</a></div>
   </div>
+
+  <div class="pub reveal">
+    <h3>WildDet3D: Scaling Promptable 3D Detection in the Wild</h3>
+    <p class="authors">Weikai Huang*, Jieyu Zhang*, Sijun Li, Taoyang Jia, Jiafei Duan, Yunqian Cheng, Jaemin Cho, <strong>Matthew Wallingford</strong>, Rustin Soraki, Chris Dongjoo Kim, Shuo Liu, Donovan Clay, Taira Anderson, Winson Han, Ali Farhadi, Bharath Hariharan, Zhongzheng Ren<sup>&dagger;</sup>, Ranjay Krishna<sup>&dagger;</sup></p>
+    <p class="venue">Preprint, 2025</p>
+    <div class="pub-links"><a href="https://github.com/allenai/WildDet3D" target="_blank">code</a> <a href="https://allenai.github.io/WildDet3D/" target="_blank">webpage</a></div>
+  </div>
 </section>
 
 <section id="papers">
@@ -441,19 +448,20 @@
 <script>
 const papers = [
   { title: "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation", year: "2025", venue: "arXiv", tags: "embodied 3d generative robot simulation", el: 0 },
-  { title: "Beyond the Frame: Generating 360° Panoramic Videos", year: "2025", venue: "ICCV", tags: "3d generative panoramic video", el: 1 },
-  { title: "From an Image to a Scene: Learning to Imagine the World", year: "2024", venue: "NeurIPS", tags: "3d generative scene 360", el: 2 },
-  { title: "Multilingual Diversity Improves Vision-Language Representations", year: "2024", venue: "NeurIPS", tags: "vision representation multilingual language", el: 3 },
-  { title: "Superposed Decoding: Multiple Generations from a Single Pass", year: "2024", venue: "NeurIPS", tags: "generative decoding language", el: 4 },
-  { title: "The Unmet Promise of Synthetic Training Images", year: "2024", venue: "NeurIPS", tags: "vision generative synthetic", el: 5 },
-  { title: "Neural Radiance Field Codebooks", year: "2023", venue: "ICLR", tags: "3d representation nerf", el: 6 },
-  { title: "Neural Priming for Sample-Efficient Adaptation", year: "2023", venue: "NeurIPS", tags: "representation vision few-shot", el: 7 },
-  { title: "Objaverse-XL: A Universe of 10M+ 3D Objects", year: "2023", venue: "NeurIPS", tags: "3d dataset", el: 8 },
-  { title: "FLUID: A Unified Evaluation Framework", year: "2023", venue: "TMLR", tags: "representation continual benchmark", el: 9 },
-  { title: "Task Adaptive Parameter Sharing for Multi-Task Learning", year: "2022", venue: "CVPR", tags: "representation vision multi-task", el: 10 },
-  { title: "Matryoshka Representation Learning", year: "2022", venue: "NeurIPS", tags: "representation embedding", el: 11 },
-  { title: "LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes", year: "2021", venue: "NeurIPS", tags: "representation binary retrieval", el: 12 },
-  { title: "RoboTHOR: An Open Simulation-to-Real Embodied AI Platform", year: "2020", venue: "CVPR", tags: "embodied 3d simulation robot", el: 13 },
+  { title: "WildDet3D: Scaling Promptable 3D Detection in the Wild", year: "2025", venue: "Preprint", tags: "3d detection vision", el: 1 },
+  { title: "Beyond the Frame: Generating 360° Panoramic Videos", year: "2025", venue: "ICCV", tags: "3d generative panoramic video", el: 2 },
+  { title: "From an Image to a Scene: Learning to Imagine the World", year: "2024", venue: "NeurIPS", tags: "3d generative scene 360", el: 3 },
+  { title: "Multilingual Diversity Improves Vision-Language Representations", year: "2024", venue: "NeurIPS", tags: "vision representation multilingual language", el: 4 },
+  { title: "Superposed Decoding: Multiple Generations from a Single Pass", year: "2024", venue: "NeurIPS", tags: "generative decoding language", el: 5 },
+  { title: "The Unmet Promise of Synthetic Training Images", year: "2024", venue: "NeurIPS", tags: "vision generative synthetic", el: 6 },
+  { title: "Neural Radiance Field Codebooks", year: "2023", venue: "ICLR", tags: "3d representation nerf", el: 7 },
+  { title: "Neural Priming for Sample-Efficient Adaptation", year: "2023", venue: "NeurIPS", tags: "representation vision few-shot", el: 8 },
+  { title: "Objaverse-XL: A Universe of 10M+ 3D Objects", year: "2023", venue: "NeurIPS", tags: "3d dataset", el: 9 },
+  { title: "FLUID: A Unified Evaluation Framework", year: "2023", venue: "TMLR", tags: "representation continual benchmark", el: 10 },
+  { title: "Task Adaptive Parameter Sharing for Multi-Task Learning", year: "2022", venue: "CVPR", tags: "representation vision multi-task", el: 11 },
+  { title: "Matryoshka Representation Learning", year: "2022", venue: "NeurIPS", tags: "representation embedding", el: 12 },
+  { title: "LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes", year: "2021", venue: "NeurIPS", tags: "representation binary retrieval", el: 13 },
+  { title: "RoboTHOR: An Open Simulation-to-Real Embodied AI Platform", year: "2020", venue: "CVPR", tags: "embodied 3d simulation robot", el: 14 },
 ];
 
 const pubEls = document.querySelectorAll('.pub');
