@@ -290,8 +290,9 @@
     <h1>Matt Wallingford</h1>
     <div class="hero-bio">
       <p>
-        I am a research scientist on the PRIOR team at the
-        <a href="https://allenai.org/" target="_blank">Allen Institute for AI (AI2)</a>.
+        I am a Member of Technical Staff at
+        <a href="https://www.microsoft.com/en-us/ai" target="_blank">Microsoft AI</a>,
+        where I work on vision-language model (VLM) post-training.
         I received my PhD in Computer Science from the University of Washington,
         where I was advised by <a href="https://homes.cs.washington.edu/~ali/" target="_blank">Ali Farhadi</a>.
       </p>
@@ -334,6 +335,20 @@
 
 <section id="papers">
   <h2>Publications</h2>
+
+  <div class="pub reveal">
+    <h3>Posterior Augmented Flow Matching</h3>
+    <p class="authors">George Stoica, Sayak Paul, <strong>Matt Wallingford</strong>, Vivek Ramanujan, Abhay Nori, Winson Han, Ali Farhadi, Ranjay Krishna, Judy Hoffman</p>
+    <p class="venue">European Conference on Computer Vision (ECCV), 2026</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2605.00825" target="_blank">paper</a> <a href="https://github.com/gstoica27/PAFM" target="_blank">code</a></div>
+  </div>
+
+  <div class="pub reveal">
+    <h3>Seeing Fast and Slow: Learning the Flow of Time in Videos</h3>
+    <p class="authors">Yen-Siang Wu, Rundong Luo, Jingsen Zhu, Tao Tu, Ali Farhadi, <strong>Matt Wallingford</strong>, Yu-Chiang Frank Wang, Steve Marschner, Wei-Chiu Ma</p>
+    <p class="venue">European Conference on Computer Vision (ECCV), 2026</p>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2604.21931" target="_blank">paper</a> <a href="https://seeing-fast-and-slow.github.io/" target="_blank">webpage</a></div>
+  </div>
 
   <div class="pub reveal">
     <h3>Beyond the Frame: Generating 360&deg; Panoramic Videos from Perspective Videos</h3>
@@ -449,19 +464,21 @@
 const papers = [
   { title: "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation", year: "2025", venue: "arXiv", tags: "embodied 3d generative robot simulation", el: 0 },
   { title: "WildDet3D: Scaling Promptable 3D Detection in the Wild", year: "2025", venue: "Preprint", tags: "3d detection vision", el: 1 },
-  { title: "Beyond the Frame: Generating 360° Panoramic Videos", year: "2025", venue: "ICCV", tags: "3d generative panoramic video", el: 2 },
-  { title: "From an Image to a Scene: Learning to Imagine the World", year: "2024", venue: "NeurIPS", tags: "3d generative scene 360", el: 3 },
-  { title: "Multilingual Diversity Improves Vision-Language Representations", year: "2024", venue: "NeurIPS", tags: "vision representation multilingual language", el: 4 },
-  { title: "Superposed Decoding: Multiple Generations from a Single Pass", year: "2024", venue: "NeurIPS", tags: "generative decoding language", el: 5 },
-  { title: "The Unmet Promise of Synthetic Training Images", year: "2024", venue: "NeurIPS", tags: "vision generative synthetic", el: 6 },
-  { title: "Neural Radiance Field Codebooks", year: "2023", venue: "ICLR", tags: "3d representation nerf", el: 7 },
-  { title: "Neural Priming for Sample-Efficient Adaptation", year: "2023", venue: "NeurIPS", tags: "representation vision few-shot", el: 8 },
-  { title: "Objaverse-XL: A Universe of 10M+ 3D Objects", year: "2023", venue: "NeurIPS", tags: "3d dataset", el: 9 },
-  { title: "FLUID: A Unified Evaluation Framework", year: "2023", venue: "TMLR", tags: "representation continual benchmark", el: 10 },
-  { title: "Task Adaptive Parameter Sharing for Multi-Task Learning", year: "2022", venue: "CVPR", tags: "representation vision multi-task", el: 11 },
-  { title: "Matryoshka Representation Learning", year: "2022", venue: "NeurIPS", tags: "representation embedding", el: 12 },
-  { title: "LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes", year: "2021", venue: "NeurIPS", tags: "representation binary retrieval", el: 13 },
-  { title: "RoboTHOR: An Open Simulation-to-Real Embodied AI Platform", year: "2020", venue: "CVPR", tags: "embodied 3d simulation robot", el: 14 },
+  { title: "Posterior Augmented Flow Matching", year: "2026", venue: "ECCV", tags: "generative flow-matching vision diffusion", el: 2 },
+  { title: "Seeing Fast and Slow: Learning the Flow of Time in Videos", year: "2026", venue: "ECCV", tags: "video temporal time vision self-supervised", el: 3 },
+  { title: "Beyond the Frame: Generating 360° Panoramic Videos", year: "2025", venue: "ICCV", tags: "3d generative panoramic video", el: 4 },
+  { title: "From an Image to a Scene: Learning to Imagine the World", year: "2024", venue: "NeurIPS", tags: "3d generative scene 360", el: 5 },
+  { title: "Multilingual Diversity Improves Vision-Language Representations", year: "2024", venue: "NeurIPS", tags: "vision representation multilingual language", el: 6 },
+  { title: "Superposed Decoding: Multiple Generations from a Single Pass", year: "2024", venue: "NeurIPS", tags: "generative decoding language", el: 7 },
+  { title: "The Unmet Promise of Synthetic Training Images", year: "2024", venue: "NeurIPS", tags: "vision generative synthetic", el: 8 },
+  { title: "Neural Radiance Field Codebooks", year: "2023", venue: "ICLR", tags: "3d representation nerf", el: 9 },
+  { title: "Neural Priming for Sample-Efficient Adaptation", year: "2023", venue: "NeurIPS", tags: "representation vision few-shot", el: 10 },
+  { title: "Objaverse-XL: A Universe of 10M+ 3D Objects", year: "2023", venue: "NeurIPS", tags: "3d dataset", el: 11 },
+  { title: "FLUID: A Unified Evaluation Framework", year: "2023", venue: "TMLR", tags: "representation continual benchmark", el: 12 },
+  { title: "Task Adaptive Parameter Sharing for Multi-Task Learning", year: "2022", venue: "CVPR", tags: "representation vision multi-task", el: 13 },
+  { title: "Matryoshka Representation Learning", year: "2022", venue: "NeurIPS", tags: "representation embedding", el: 14 },
+  { title: "LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes", year: "2021", venue: "NeurIPS", tags: "representation binary retrieval", el: 15 },
+  { title: "RoboTHOR: An Open Simulation-to-Real Embodied AI Platform", year: "2020", venue: "CVPR", tags: "embodied 3d simulation robot", el: 16 },
 ];
 
 const pubEls = document.querySelectorAll('.pub');
